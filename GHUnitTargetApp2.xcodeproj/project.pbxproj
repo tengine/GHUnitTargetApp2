@@ -22,7 +22,6 @@
 		67FED306170D4657000C77A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED2DF170D45F8000C77A7 /* CoreGraphics.framework */; };
 		67FED30C170D4657000C77A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67FED30A170D4657000C77A7 /* InfoPlist.strings */; };
 		67FED30E170D4657000C77A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FED30D170D4657000C77A7 /* main.m */; };
-		67FED312170D4657000C77A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FED311170D4657000C77A7 /* AppDelegate.m */; };
 		67FED317170D469F000C77A7 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED316170D469F000C77A7 /* GHUnitIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +47,6 @@
 		67FED30B170D4657000C77A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67FED30D170D4657000C77A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67FED30F170D4657000C77A7 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		67FED310170D4657000C77A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		67FED311170D4657000C77A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		67FED316170D469F000C77A7 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,8 +135,6 @@
 		67FED307170D4657000C77A7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				67FED310170D4657000C77A7 /* AppDelegate.h */,
-				67FED311170D4657000C77A7 /* AppDelegate.m */,
 				67FED308170D4657000C77A7 /* Supporting Files */,
 			);
 			path = Tests;
@@ -257,7 +252,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67FED30E170D4657000C77A7 /* main.m in Sources */,
-				67FED312170D4657000C77A7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
