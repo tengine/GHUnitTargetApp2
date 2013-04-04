@@ -17,6 +17,12 @@
 		67FED2F2170D45F8000C77A7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FED2F1170D45F8000C77A7 /* DetailViewController.m */; };
 		67FED2F5170D45F8000C77A7 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FED2F3170D45F8000C77A7 /* MasterViewController.xib */; };
 		67FED2F8170D45F8000C77A7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FED2F6170D45F8000C77A7 /* DetailViewController.xib */; };
+		67FED304170D4657000C77A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED2DB170D45F8000C77A7 /* UIKit.framework */; };
+		67FED305170D4657000C77A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED2DD170D45F8000C77A7 /* Foundation.framework */; };
+		67FED306170D4657000C77A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED2DF170D45F8000C77A7 /* CoreGraphics.framework */; };
+		67FED30C170D4657000C77A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67FED30A170D4657000C77A7 /* InfoPlist.strings */; };
+		67FED30E170D4657000C77A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FED30D170D4657000C77A7 /* main.m */; };
+		67FED312170D4657000C77A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FED311170D4657000C77A7 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,13 @@
 		67FED2F1170D45F8000C77A7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		67FED2F4170D45F8000C77A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		67FED2F7170D45F8000C77A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		67FED302170D4657000C77A7 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FED309170D4657000C77A7 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		67FED30B170D4657000C77A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67FED30D170D4657000C77A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67FED30F170D4657000C77A7 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		67FED310170D4657000C77A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67FED311170D4657000C77A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +62,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67FED2FF170D4657000C77A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FED304170D4657000C77A7 /* UIKit.framework in Frameworks */,
+				67FED305170D4657000C77A7 /* Foundation.framework in Frameworks */,
+				67FED306170D4657000C77A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				67FED2E1170D45F8000C77A7 /* GHUnitTargetApp2 */,
+				67FED307170D4657000C77A7 /* Tests */,
 				67FED2DA170D45F8000C77A7 /* Frameworks */,
 				67FED2D8170D45F8000C77A7 /* Products */,
 			);
@@ -65,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				67FED2D7170D45F8000C77A7 /* GHUnitTargetApp2.app */,
+				67FED302170D4657000C77A7 /* Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +131,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		67FED307170D4657000C77A7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67FED310170D4657000C77A7 /* AppDelegate.h */,
+				67FED311170D4657000C77A7 /* AppDelegate.m */,
+				67FED308170D4657000C77A7 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		67FED308170D4657000C77A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67FED309170D4657000C77A7 /* Tests-Info.plist */,
+				67FED30A170D4657000C77A7 /* InfoPlist.strings */,
+				67FED30D170D4657000C77A7 /* main.m */,
+				67FED30F170D4657000C77A7 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,6 +170,23 @@
 			name = GHUnitTargetApp2;
 			productName = GHUnitTargetApp2;
 			productReference = 67FED2D7170D45F8000C77A7 /* GHUnitTargetApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67FED301170D4657000C77A7 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FED313170D4657000C77A7 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				67FED2FE170D4657000C77A7 /* Sources */,
+				67FED2FF170D4657000C77A7 /* Frameworks */,
+				67FED300170D4657000C77A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 67FED302170D4657000C77A7 /* Tests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				67FED2D6170D45F8000C77A7 /* GHUnitTargetApp2 */,
+				67FED301170D4657000C77A7 /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -162,6 +226,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67FED300170D4657000C77A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FED30C170D4657000C77A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -173,6 +245,15 @@
 				67FED2EC170D45F8000C77A7 /* AppDelegate.m in Sources */,
 				67FED2EF170D45F8000C77A7 /* MasterViewController.m in Sources */,
 				67FED2F2170D45F8000C77A7 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FED2FE170D4657000C77A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FED30E170D4657000C77A7 /* main.m in Sources */,
+				67FED312170D4657000C77A7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +282,14 @@
 				67FED2F7170D45F8000C77A7 /* en */,
 			);
 			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		67FED30A170D4657000C77A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FED30B170D4657000C77A7 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,6 +360,30 @@
 			};
 			name = Release;
 		};
+		67FED314170D4657000C77A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67FED315170D4657000C77A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -288,6 +401,14 @@
 			buildConfigurations = (
 				67FED2FC170D45F8000C77A7 /* Debug */,
 				67FED2FD170D45F8000C77A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67FED313170D4657000C77A7 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FED314170D4657000C77A7 /* Debug */,
+				67FED315170D4657000C77A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
