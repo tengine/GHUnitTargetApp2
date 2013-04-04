@@ -12,7 +12,7 @@ GHUnit 0.5.6
 1. Download GHUnitIOS-0.5.6.zip from [downloads](https://github.com/gabriel/gh-unit/downloads)
 2. Unzip the file. And you can see "GHUnitIOS.framework" directory
 3. Create new project in Xcode
-4. Add Empty application 'Tests' for GHUnit
+4. Add Target as Empty application 'Tests' for GHUnit
 5. Import GHUnitIOS.framework into Frameworks
     * Right-click "Frameworks" and 'Add Files to "XXXX"...' in project navigator.
     * I checked "Copy items into destination group's folder (if needed)" checkbox.
