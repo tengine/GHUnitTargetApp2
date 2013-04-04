@@ -10,6 +10,7 @@
 		677B070C170D706100DB1089 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B070B170D706100DB1089 /* Utility.m */; };
 		677B070D170D706100DB1089 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B070B170D706100DB1089 /* Utility.m */; };
 		677B0711170D70BC00DB1089 /* UtilityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B0710170D70BC00DB1089 /* UtilityTest.m */; };
+		677B0714170D71E100DB1089 /* MyAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B0713170D71E100DB1089 /* MyAsyncTest.m */; };
 		67FED2DC170D45F8000C77A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED2DB170D45F8000C77A7 /* UIKit.framework */; };
 		67FED2DE170D45F8000C77A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED2DD170D45F8000C77A7 /* Foundation.framework */; };
 		67FED2E0170D45F8000C77A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FED2DF170D45F8000C77A7 /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 		677B070B170D706100DB1089 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		677B070F170D70BC00DB1089 /* UtilityTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTest.h; sourceTree = "<group>"; };
 		677B0710170D70BC00DB1089 /* UtilityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTest.m; sourceTree = "<group>"; };
+		677B0712170D71E100DB1089 /* MyAsyncTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncTest.h; sourceTree = "<group>"; };
+		677B0713170D71E100DB1089 /* MyAsyncTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncTest.m; sourceTree = "<group>"; };
 		67FED2D7170D45F8000C77A7 /* GHUnitTargetApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTargetApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FED2DB170D45F8000C77A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67FED2DD170D45F8000C77A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,6 +154,8 @@
 				67FED308170D4657000C77A7 /* Supporting Files */,
 				677B070F170D70BC00DB1089 /* UtilityTest.h */,
 				677B0710170D70BC00DB1089 /* UtilityTest.m */,
+				677B0712170D71E100DB1089 /* MyAsyncTest.h */,
+				677B0713170D71E100DB1089 /* MyAsyncTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				67FED30E170D4657000C77A7 /* main.m in Sources */,
 				677B070D170D706100DB1089 /* Utility.m in Sources */,
 				677B0711170D70BC00DB1089 /* UtilityTest.m in Sources */,
+				677B0714170D71E100DB1089 /* MyAsyncTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
